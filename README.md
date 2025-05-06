@@ -1,10 +1,13 @@
 Project Report
+
 Title: Predictive Analytics for EV Charging Station Optimization
 Technology Stack: Django, Python, PyTorch, Scikit-learn, Pandas, Matplotlib, Leaflet.js
 1. Introduction
+
 Electric Vehicles (EVs) are becoming increasingly popular, necessitating efficient charging infrastructure. This project aims to optimize the placement and usage prediction of EV charging stations using predictive analytics and clustering techniques. It combines real-time station data with time series forecasting models to assist in planning and usage optimization.
 
 2. Objectives
+   
 Predict future usage of EV charging stations using LSTM models.
 
 Cluster charging stations based on location to identify usage trends.
@@ -14,6 +17,7 @@ Visualize station clusters and predicted usage on an interactive map.
 Provide a scalable backend API using Django for easy integration.
 
 3. Methodology
+   
 3.1 Data Sources
 Historical usage data of EV charging stations (CSV file).
 
@@ -48,6 +52,7 @@ Used Leaflet.js for an interactive web map.
 Each station is marked, color-coded by cluster, and displays predicted usage when clicked.
 
 4. System Architecture
+   
 Frontend: Leaflet.js-based map for visualization (optional; not detailed here).
 
 Backend: Django REST APIs
